@@ -5,6 +5,7 @@ require("esbuild")
     entryPoints: ["src/index.js"],
     bundle: true,
     outfile: "dist/main.js",
+    logLevel: "info",
     loader: {
       ".js": "jsx",
       ".svg": "dataurl",
